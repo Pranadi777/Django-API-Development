@@ -1,1 +1,3 @@
 devices_backend/.env
+devices_backend/hidden_notes.txt
+devices_backend/db.sqlite3
