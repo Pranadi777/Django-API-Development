@@ -3,7 +3,7 @@ from devices.models import Device, Location
 
 # - Schemas are used to determine th structure of the data  coming in to the api end poitns, and the data returned from the data endpoints
 # - When requesting data: Schemas inheret from ninja's ModelSchema class (since data is coming from a model)
-# - When posting data: Schema inherets from ninjas's Schema
+# - When posting data: Schema inherets from ninjas's Schema, using a request body
 
 
 #Schema for returning location data
