@@ -1,8 +1,8 @@
 # Developing modern APIs with Django
 
-Django API
+Django API  
 ![screenshot](api_docs.png)
-React APP
+React APP  
 ![screenshot](react_app.png)
 
 ## Project Overview
