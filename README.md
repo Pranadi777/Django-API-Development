@@ -1,17 +1,26 @@
 # Developing modern APIs with Django
 
+Django API
 ![screenshot](api_docs.png)
+React APP
+![screenshot](react_app.png)
 
-## Description of Project:
+## Project Overview
 
-- Gain an understanding of how API development works within a Django framework
-- This API will allow users to fetch and create IOT devices and also to assign devices to a location
-- Build on the skill learned in this project to build an API for JobGenome
+This project aims to demystify the process of developing modern APIs using Django and integrating them with a React/Next.js frontend. It focuses on creating and managing IoT devices and their assignments to specific locations through a clean, user-friendly interface.
 
-## Description of Django Ninja:
+## Django Ninja Overview
 
-- Schemas (as defined in Schemas.py), instruct how data should be processed whether it is data input (POST) or data output (GET)
-- app.py define the api endpoints/rouutes
+Django Ninja is used for its efficient API development capabilities, focusing on:
+
+- **Schemas (Schemas.py):** Define data processing rules for both input (POST requests) and output (GET requests).
+- **API Endpoints/Routes (app.py):** Configure the API's endpoints to interact with the data.
+
+## Setup
+
+- Copy repo from github
+- install requirements.txt and react/Next.js
+- runservers on localhost 8000 and 3000 for django and react respectively
 
 ## API Endpoints
 The following endpoints are available:
