@@ -1,7 +1,7 @@
-POST http://localhost:8000/api/devices/new-sencor/set-location/
+POST http://localhost:8000/api/devices/
 Content-Type: 'application/json'
 
 
 {
-    "location_id": null
+    "name": "new IOT Devices"
 }

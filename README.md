@@ -5,7 +5,7 @@
 ## Description of Project:
 
 - Gain an understanding of how API development works within a Django framework
-- This API will allow userss to fetch and create IOT devices and also to assign devices to and from a location
+- This API will allow users to fetch and create IOT devices and also to assign devices to a location
 - Build on the skill learned in this project to build an API for JobGenome
 
 ## Description of Django Ninja:
@@ -16,16 +16,16 @@
 ## API Endpoints
 The following endpoints are available:
 
-GET api/devices/: Retrieve a list of all devices.
-GET api/locations/: Retrieve a list of all locations.
-GET api/devices/{slug}/: Retrieve a list of all locations.
+- GET api/devices/: Retrieve a list of all devices.
+- GET api/locations/: Retrieve a list of all locations.
+- GET api/devices/{slug}/: Retrieve one device.
+- POST api/devices/: Create new device.
+- POST devices/{device_slug}/set-location/: Set the location of a device.
 
+## Example
 
-POST /api/resource/: Create a new resource.
-GET /api/resource/<id>/: Retrieve a specific resource.
-PUT /api/resource/<id>/: Update a specific resource.
-DELETE /api/resource/<id>/: Delete a specific resource
-
+POST api/devices/: Create new device.
+![screenshot](Example_POST.png)
 
 ## Credit
 
