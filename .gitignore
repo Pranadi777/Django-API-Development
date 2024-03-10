@@ -1,3 +1,40 @@
 devices_backend/.env
 devices_backend/hidden_notes.txt
 devices_backend/db.sqlite3
+
+
+
+# dependencies
+devices-frontend/node_modules
+devices-frontend/.pnp
+devices-frontend/.pnp.js
+devices-frontend/.yarn/install-state.gz
+
+# testing
+devices-frontend/coverage
+
+# next.js
+devices-frontend/.next/
+devices-frontend/out/
+
+# production
+devices-frontend/build
+
+# misc
+devices-frontend/.DS_Store
+devices-frontend/*.pem
+
+# debug
+devices-frontend/npm-debug.log*
+devices-frontend/yarn-debug.log*
+devices-frontend/yarn-error.log*
+
+# local env files
+devices-frontend/.env*.local
+
+# vercel
+devices-frontend/.vercel
+
+# typescript
+devices-frontend/*.tsbuildinfo
+devices-frontend/next-env.d.ts

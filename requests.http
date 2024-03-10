@@ -1,0 +1,7 @@
+POST http://localhost:8000/api/devices/new-sencor/set-location/
+Content-Type: 'application/json'
+
+
+{
+    "location_id": null
+}

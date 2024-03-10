@@ -17,8 +17,7 @@ class Location(models.Model):
 class Device(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable = False)
     name = models.CharField(max_length=200)
-    #want a slug for each device
-    #e.g., CO2 Sensor -> co2-sensor
+    #Slugs for names: e.g., CO2 Sensor -> co2-sensor
     slug = AutoSlugField(populate_from='name')
     location = models.ForeignKey(
         Location,
